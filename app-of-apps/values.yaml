@@ -1,0 +1,11 @@
+metadate:
+  namespace: argocd
+spec:
+  destination:
+    server:
+  source:
+    repoURL: https://github.com/CookieDude24/digitalocean-k8s-cluster.git
+    targetRevision: HEAD
+  automated:
+    selfHeal: true
+    prune: true
